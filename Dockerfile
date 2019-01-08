@@ -1,4 +1,4 @@
-FROM golang:1.11.1-alpine3.8
+FROM golang:1.11.4-alpine3.8
 
 RUN apk add git
 RUN apk --no-cache add tzdata zlib-dev ttf-ubuntu-font-family ttf-linux-libertine freetype freetype-dev fontconfig libx11-dev libxext-dev libxrender-dev ttf-freefont dbus xvfb curl qt5-qtbase
